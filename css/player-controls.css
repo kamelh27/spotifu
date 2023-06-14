@@ -1,0 +1,15 @@
+.playerControls{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.playerControls-buttons{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.icon-prev, .icon-next{
+  color: var(--gray10);
+}

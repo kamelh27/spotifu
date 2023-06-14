@@ -1,0 +1,109 @@
+.presentationAlbum{
+  display: flex;
+  align-items: flex-end;
+  gap: 0.625rem;
+}
+
+.presentationAlbum-info{
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.presentationAlbum-info> p, h2, h3{
+  margin: 0;
+}
+
+.presentationAlbum-cover img{
+  vertical-align: middle;
+  inline-size: 14.5rem;
+  block-size: 14.5rem;
+}
+
+.presentationAlbum-parrafo{
+  text-transform: uppercase;
+  font: var(--smallfont);
+  color: var(--white);
+}
+
+.presentationAlbum-title{
+  font: var(--headline1);
+  color: var(--white);
+}
+
+.presentationAlbum-sub{
+  font: var(--smallfont);
+  color: var(--white);
+}
+
+.presentationAlbum-content{
+  margin-block-start: 3rem;
+}
+
+th.presentationThead-title-1{
+  padding-inline-start: 14px;
+  padding-block: 1.335rem;
+}
+
+th.presentationThead-title-2{
+  padding-inline-end: 12.5rem;
+  text-transform: uppercase;
+}
+
+.titulo-artist{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+
+.titulo-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-info span{
+  font: var(--smallfont);
+}
+
+.titulo-info span:nth-child(2){
+  color: var(--gray10);
+}
+
+.titulo-artist img{
+  vertical-align: middle;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+}
+
+th.presentationThead-title-3{
+  padding-inline-end: 20.25rem;
+  padding-inline-start: 11px;
+}
+
+th.presentationThead-title-4{
+  padding-inline-end: 17.5rem;
+  padding-inline-start: 11px;
+  padding-block: 1.335rem;
+  text-transform: uppercase;
+}
+
+th.presentationThead-title{
+  padding-inline-start: 11px;
+}
+
+.titulo{
+  font: var(--smallfont);
+}
+
+
+
+
+.ocultar{
+  display: none;
+}
+
+.cerrar{
+  display: none;
+}
+

@@ -1,0 +1,89 @@
+.tableContainer{
+  display: flex;
+  align-items: center;
+  border: 3px solid red; 
+}
+
+
+thead{
+  text-align: left;
+}
+
+th.table-title{
+  padding-inline-end: 4.8rem;
+  padding-inline-start: 6.25rem;
+}
+
+
+
+thead th{
+  font: var(--subtitle2);
+  color: var(--gray10);
+  padding-block-start: 14px;
+  padding-block-end: 14px;
+}
+
+tbody td{
+  font: var(--basefontNormal);
+  color: var(--white);
+  padding: .625rem;
+}
+
+.table-info{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .7rem;
+}
+
+
+
+.is-table{
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  font-size: 0.56rem;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.is-tableHeart{
+  font-size: 1.1rem;
+}
+
+.tabla-icon{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+
+
+.table-button{
+  border: 1px solid var(--gray10);
+  background: none;
+  color: var(--white);
+  font-size: .9rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.table-button i{
+  font-size: .5rem;
+  position: relative;
+  bottom: .1rem;
+  left: .1rem;
+}
+
+
+.seccion-actual{
+  display: none;
+}
+
+.seccion-cerrar{
+  display: none;
+}
+
+th.table-title{
+  padding-left: 10px;
+  text-transform: uppercase;
+}
