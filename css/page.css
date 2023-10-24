@@ -1,0 +1,21 @@
+@import './header.css';
+@import './sticky.css';
+@import './navegation.css';
+@import './search.css';
+
+.page-block{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.page .header{
+  margin-block-end: 1rem;
+  margin-inline: -1.5rem;
+}
+
+.page{
+  padding-inline: 2em;
+  padding-block-end: 2em;
+  overflow: auto;
+}

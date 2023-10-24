@@ -1,0 +1,44 @@
+.user{
+  inline-size: 11.25rem;
+  display: flex;
+  background: rgba(0,0,0, .5);
+  border-radius: 1rem;
+  align-items: center;
+}
+
+
+
+.user-image img{
+  vertical-align: middle;
+  inline-size: 1.75rem;
+  block-size: 1.75rem;
+  border-radius: 50%;
+}
+
+.user-description{
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  align-items: center;
+  padding: .37rem;
+  gap: .37rem;
+}
+
+.userIcon{
+  border: none;
+  background: none;
+}
+
+.user-name{
+  font: var(--basefontNormal);
+  color: var(--white);
+  margin: 0;
+}
+
+.iconVector{
+  color: var(--white);
+}
+
+.icon-Vector{
+  font-size: .37rem;
+}

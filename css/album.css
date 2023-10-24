@@ -1,0 +1,86 @@
+.albumDetail{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.album-container{
+  text-align: center;
+  margin-block-start: 5.6rem;
+  margin-block-end: 1rem;
+  z-index: 2;
+}
+
+.album-title{
+  font: var(--headline1);
+  color: var(--white);
+  margin-block: 1rem;
+}
+
+.album-description{
+  font: var(--basefontNormal);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-block: 1rem;
+}
+
+.buttonAlbum{
+  font: var(--button);
+  text-transform: uppercase ;
+  padding-block: .5rem;
+  padding-inline: 2rem;
+  border-radius: 70px;
+  border: none;
+  background: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+  
+}
+
+.background-container {
+  position: relative;
+
+  background-image: linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, rgb(23, 23, 23) 66.2%), url('../images/pantera.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  z-index: 1;
+}
+
+
+
+
+.album-content{
+  margin-block:1.5rem ;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+}
+
+.input-container {
+  width: 60px; /* Ancho inicial del contenedor */
+  border: none;
+  background: none;
+  transition: width 0.3s ease; /* Transición suave de la propiedad width */
+}
+
+.input-container.focus {
+  color: var(--gray20);
+  border: none;
+  background: var(--white);
+  border-radius: 70px;
+  padding: .5rem;
+  width: 300px; /* Ancho expandido del contenedor cuando está enfocado */
+}
+
+
+
+.input-container::-webkit-input-placeholder{
+  font: var(--button);
+  color: var(--gray10);
+}
+
+.albumForm{
+  padding-inline-start: .625rem;
+}

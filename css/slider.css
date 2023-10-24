@@ -1,0 +1,35 @@
+.slider{
+  background: rgba(255, 255, 255, .3);
+  block-size: 0.25rem;
+  border-radius: .25rem;
+}
+
+.slider-progress{
+  block-size: inherit;
+  border-radius: inherit;
+  inline-size: 25%;
+  background: var(--white);
+  position: relative;
+}
+
+.slider-control{
+  background: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  block-size: 200%;
+  aspect-ratio: 1/1;
+  display: none;
+}
+
+.slider:hover .slider-control{
+  display: block;
+}
+
+.slider:hover .slider-progress{
+  background: var(--primary);
+}
